@@ -7,23 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F2A68E92B962C370083698E /* StartScreenWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A68E82B962C370083698E /* StartScreenWorker.swift */; };
+		1F2A68ED2B962DD40083698E /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A68EC2B962DD40083698E /* LoginInteractor.swift */; };
+		1F2A68EF2B962EB70083698E /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A68EE2B962EB70083698E /* LoginPresenter.swift */; };
+		1F2A68F12B9630170083698E /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A68F02B9630170083698E /* LoginRouter.swift */; };
+		1F2A68F32B9635490083698E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A68F22B9635490083698E /* LoginViewController.swift */; };
 		1F9618382B8CA64100C32A9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9618372B8CA64100C32A9A /* AppDelegate.swift */; };
 		1F96183A2B8CA64100C32A9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9618392B8CA64100C32A9A /* SceneDelegate.swift */; };
-		1F96183C2B8CA64100C32A9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96183B2B8CA64100C32A9A /* ViewController.swift */; };
-		1F96183F2B8CA64100C32A9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F96183D2B8CA64100C32A9A /* Main.storyboard */; };
+		1F96183C2B8CA64100C32A9A /* OLDStartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96183B2B8CA64100C32A9A /* OLDStartScreenViewController.swift */; };
 		1F9618412B8CA64400C32A9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9618402B8CA64400C32A9A /* Assets.xcassets */; };
 		1F9618442B8CA64400C32A9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9618422B8CA64400C32A9A /* LaunchScreen.storyboard */; };
+		1F96184C2B8F708B00C32A9A /* OLDLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96184B2B8F708B00C32A9A /* OLDLoginViewController.swift */; };
+		1F96184E2B8F72B100C32A9A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96184D2B8F72B100C32A9A /* RegisterViewController.swift */; };
+		1F9618512B8F776000C32A9A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1F9618502B8F776000C32A9A /* SnapKit */; };
+		1F9618532B8F776000C32A9A /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 1F9618522B8F776000C32A9A /* SnapKit-Dynamic */; };
+		1F9618562B8F899B00C32A9A /* ValidatableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9618552B8F899B00C32A9A /* ValidatableTextField.swift */; };
+		1F9618582B8F89D000C32A9A /* InsetedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9618572B8F89D000C32A9A /* InsetedTextField.swift */; };
+		1F96185A2B8F89EC00C32A9A /* EnterTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9618592B8F89EC00C32A9A /* EnterTextField.swift */; };
+		1F96185C2B8F933300C32A9A /* FirstPasswordRecoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96185B2B8F933300C32A9A /* FirstPasswordRecoveryViewController.swift */; };
+		1F96185E2B8FA31D00C32A9A /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96185D2B8FA31D00C32A9A /* MainScreenViewController.swift */; };
+		1F9618602B8FDDFD00C32A9A /* SeondPasswordRecoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96185F2B8FDDFD00C32A9A /* SeondPasswordRecoveryViewController.swift */; };
+		1FA0614C2B965B5200BB7E7C /* LoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA0614B2B965B5200BB7E7C /* LoginWorker.swift */; };
+		1FC5A2112B95B8D40029DC1B /* StartScreenAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC5A2102B95B8D40029DC1B /* StartScreenAssembly.swift */; };
+		1FC5A2132B95B9870029DC1B /* StartScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC5A2122B95B9870029DC1B /* StartScreenPresenter.swift */; };
+		1FC5A2152B95BAF60029DC1B /* StartScreenProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC5A2142B95BAF60029DC1B /* StartScreenProtocols.swift */; };
+		1FC5A2172B95BD580029DC1B /* StartScreenModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC5A2162B95BD580029DC1B /* StartScreenModels.swift */; };
+		1FC5A2192B95C8550029DC1B /* StartSceneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC5A2182B95C8550029DC1B /* StartSceneInteractor.swift */; };
+		1FC5A21B2B95C93F0029DC1B /* StartScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC5A21A2B95C93F0029DC1B /* StartScreenRouter.swift */; };
+		1FC5A21E2B95CF7F0029DC1B /* LoginAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC5A21D2B95CF7F0029DC1B /* LoginAssembly.swift */; };
+		1FC5A2202B95CFEF0029DC1B /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC5A21F2B95CFEF0029DC1B /* LoginProtocols.swift */; };
+		1FC5A2222B95D5B10029DC1B /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC5A2212B95D5B10029DC1B /* LoginModels.swift */; };
+		1FC5A2262B95E1540029DC1B /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC5A2252B95E1540029DC1B /* StartScreenViewController.swift */; };
+		1FE663072B91DF170014AD58 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE663062B91DF170014AD58 /* AppColors.swift */; };
+		1FE663092B91E6F60014AD58 /* AppTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE663082B91E6F60014AD58 /* AppTypography.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F2A68E82B962C370083698E /* StartScreenWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenWorker.swift; sourceTree = "<group>"; };
+		1F2A68EC2B962DD40083698E /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		1F2A68EE2B962EB70083698E /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		1F2A68F02B9630170083698E /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		1F2A68F22B9635490083698E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1F9618342B8CA64100C32A9A /* asfRazvitie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = asfRazvitie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F9618372B8CA64100C32A9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F9618392B8CA64100C32A9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F96183B2B8CA64100C32A9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1F96183E2B8CA64100C32A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F96183B2B8CA64100C32A9A /* OLDStartScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLDStartScreenViewController.swift; sourceTree = "<group>"; };
 		1F9618402B8CA64400C32A9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F9618432B8CA64400C32A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F9618452B8CA64400C32A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F96184B2B8F708B00C32A9A /* OLDLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLDLoginViewController.swift; sourceTree = "<group>"; };
+		1F96184D2B8F72B100C32A9A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1F9618552B8F899B00C32A9A /* ValidatableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatableTextField.swift; sourceTree = "<group>"; };
+		1F9618572B8F89D000C32A9A /* InsetedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetedTextField.swift; sourceTree = "<group>"; };
+		1F9618592B8F89EC00C32A9A /* EnterTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterTextField.swift; sourceTree = "<group>"; };
+		1F96185B2B8F933300C32A9A /* FirstPasswordRecoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPasswordRecoveryViewController.swift; sourceTree = "<group>"; };
+		1F96185D2B8FA31D00C32A9A /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		1F96185F2B8FDDFD00C32A9A /* SeondPasswordRecoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeondPasswordRecoveryViewController.swift; sourceTree = "<group>"; };
+		1FA0614B2B965B5200BB7E7C /* LoginWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorker.swift; sourceTree = "<group>"; };
+		1FC5A2102B95B8D40029DC1B /* StartScreenAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenAssembly.swift; sourceTree = "<group>"; };
+		1FC5A2122B95B9870029DC1B /* StartScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenPresenter.swift; sourceTree = "<group>"; };
+		1FC5A2142B95BAF60029DC1B /* StartScreenProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenProtocols.swift; sourceTree = "<group>"; };
+		1FC5A2162B95BD580029DC1B /* StartScreenModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenModels.swift; sourceTree = "<group>"; };
+		1FC5A2182B95C8550029DC1B /* StartSceneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartSceneInteractor.swift; sourceTree = "<group>"; };
+		1FC5A21A2B95C93F0029DC1B /* StartScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StartScreenRouter.swift; path = ../../../exex/StartScreenRouter.swift; sourceTree = "<group>"; };
+		1FC5A21D2B95CF7F0029DC1B /* LoginAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAssembly.swift; sourceTree = "<group>"; };
+		1FC5A21F2B95CFEF0029DC1B /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
+		1FC5A2212B95D5B10029DC1B /* LoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
+		1FC5A2252B95E1540029DC1B /* StartScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
+		1FE663062B91DF170014AD58 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		1FE663082B91E6F60014AD58 /* AppTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTypography.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9618512B8F776000C32A9A /* SnapKit in Frameworks */,
+				1F9618532B8F776000C32A9A /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +110,80 @@
 		1F9618362B8CA64100C32A9A /* asfRazvitie */ = {
 			isa = PBXGroup;
 			children = (
+				1FC5A21C2B95CF600029DC1B /* LoginScene */,
+				1FC5A20F2B95B7D90029DC1B /* StartScreenScene */,
 				1F9618372B8CA64100C32A9A /* AppDelegate.swift */,
 				1F9618392B8CA64100C32A9A /* SceneDelegate.swift */,
-				1F96183B2B8CA64100C32A9A /* ViewController.swift */,
-				1F96183D2B8CA64100C32A9A /* Main.storyboard */,
+				1FC8B11F2B94996500B7A686 /* oldFiles */,
+				1FE6630A2B91EE310014AD58 /* DesignFiles */,
+				1F9618542B8F895700C32A9A /* UIElements */,
 				1F9618402B8CA64400C32A9A /* Assets.xcassets */,
 				1F9618422B8CA64400C32A9A /* LaunchScreen.storyboard */,
 				1F9618452B8CA64400C32A9A /* Info.plist */,
 			);
 			path = asfRazvitie;
+			sourceTree = "<group>";
+		};
+		1F9618542B8F895700C32A9A /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				1F9618552B8F899B00C32A9A /* ValidatableTextField.swift */,
+				1F9618572B8F89D000C32A9A /* InsetedTextField.swift */,
+				1F9618592B8F89EC00C32A9A /* EnterTextField.swift */,
+			);
+			path = UIElements;
+			sourceTree = "<group>";
+		};
+		1FC5A20F2B95B7D90029DC1B /* StartScreenScene */ = {
+			isa = PBXGroup;
+			children = (
+				1FC5A2102B95B8D40029DC1B /* StartScreenAssembly.swift */,
+				1FC5A2182B95C8550029DC1B /* StartSceneInteractor.swift */,
+				1FC5A2162B95BD580029DC1B /* StartScreenModels.swift */,
+				1FC5A2122B95B9870029DC1B /* StartScreenPresenter.swift */,
+				1FC5A2142B95BAF60029DC1B /* StartScreenProtocols.swift */,
+				1FC5A21A2B95C93F0029DC1B /* StartScreenRouter.swift */,
+				1FC5A2252B95E1540029DC1B /* StartScreenViewController.swift */,
+				1F2A68E82B962C370083698E /* StartScreenWorker.swift */,
+			);
+			path = StartScreenScene;
+			sourceTree = "<group>";
+		};
+		1FC5A21C2B95CF600029DC1B /* LoginScene */ = {
+			isa = PBXGroup;
+			children = (
+				1FC5A21D2B95CF7F0029DC1B /* LoginAssembly.swift */,
+				1FC5A2212B95D5B10029DC1B /* LoginModels.swift */,
+				1F2A68EC2B962DD40083698E /* LoginInteractor.swift */,
+				1F2A68EE2B962EB70083698E /* LoginPresenter.swift */,
+				1FC5A21F2B95CFEF0029DC1B /* LoginProtocols.swift */,
+				1F2A68F02B9630170083698E /* LoginRouter.swift */,
+				1F2A68F22B9635490083698E /* LoginViewController.swift */,
+				1FA0614B2B965B5200BB7E7C /* LoginWorker.swift */,
+			);
+			path = LoginScene;
+			sourceTree = "<group>";
+		};
+		1FC8B11F2B94996500B7A686 /* oldFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1F96183B2B8CA64100C32A9A /* OLDStartScreenViewController.swift */,
+				1F96184B2B8F708B00C32A9A /* OLDLoginViewController.swift */,
+				1F96185B2B8F933300C32A9A /* FirstPasswordRecoveryViewController.swift */,
+				1F96185F2B8FDDFD00C32A9A /* SeondPasswordRecoveryViewController.swift */,
+				1F96184D2B8F72B100C32A9A /* RegisterViewController.swift */,
+				1F96185D2B8FA31D00C32A9A /* MainScreenViewController.swift */,
+			);
+			path = oldFiles;
+			sourceTree = "<group>";
+		};
+		1FE6630A2B91EE310014AD58 /* DesignFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1FE663062B91DF170014AD58 /* AppColors.swift */,
+				1FE663082B91E6F60014AD58 /* AppTypography.swift */,
+			);
+			path = DesignFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +202,10 @@
 			dependencies = (
 			);
 			name = asfRazvitie;
+			packageProductDependencies = (
+				1F9618502B8F776000C32A9A /* SnapKit */,
+				1F9618522B8F776000C32A9A /* SnapKit-Dynamic */,
+			);
 			productName = asfRazvitie;
 			productReference = 1F9618342B8CA64100C32A9A /* asfRazvitie.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +234,9 @@
 				Base,
 			);
 			mainGroup = 1F96182B2B8CA64100C32A9A;
+			packageReferences = (
+				1F96184F2B8F776000C32A9A /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 1F9618352B8CA64100C32A9A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +253,6 @@
 			files = (
 				1F9618442B8CA64400C32A9A /* LaunchScreen.storyboard in Resources */,
 				1F9618412B8CA64400C32A9A /* Assets.xcassets in Resources */,
-				1F96183F2B8CA64100C32A9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +263,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F96183C2B8CA64100C32A9A /* ViewController.swift in Sources */,
+				1F2A68F32B9635490083698E /* LoginViewController.swift in Sources */,
+				1F96184C2B8F708B00C32A9A /* OLDLoginViewController.swift in Sources */,
+				1F96184E2B8F72B100C32A9A /* RegisterViewController.swift in Sources */,
+				1F96185C2B8F933300C32A9A /* FirstPasswordRecoveryViewController.swift in Sources */,
+				1F2A68ED2B962DD40083698E /* LoginInteractor.swift in Sources */,
+				1F96183C2B8CA64100C32A9A /* OLDStartScreenViewController.swift in Sources */,
+				1FC5A2262B95E1540029DC1B /* StartScreenViewController.swift in Sources */,
+				1FA0614C2B965B5200BB7E7C /* LoginWorker.swift in Sources */,
+				1FC5A21B2B95C93F0029DC1B /* StartScreenRouter.swift in Sources */,
+				1FC5A2192B95C8550029DC1B /* StartSceneInteractor.swift in Sources */,
+				1F2A68EF2B962EB70083698E /* LoginPresenter.swift in Sources */,
+				1F9618562B8F899B00C32A9A /* ValidatableTextField.swift in Sources */,
+				1FC5A2222B95D5B10029DC1B /* LoginModels.swift in Sources */,
+				1F9618602B8FDDFD00C32A9A /* SeondPasswordRecoveryViewController.swift in Sources */,
+				1F2A68E92B962C370083698E /* StartScreenWorker.swift in Sources */,
+				1FC5A2112B95B8D40029DC1B /* StartScreenAssembly.swift in Sources */,
+				1F2A68F12B9630170083698E /* LoginRouter.swift in Sources */,
+				1FC5A2132B95B9870029DC1B /* StartScreenPresenter.swift in Sources */,
+				1FC5A2152B95BAF60029DC1B /* StartScreenProtocols.swift in Sources */,
+				1FC5A21E2B95CF7F0029DC1B /* LoginAssembly.swift in Sources */,
+				1F96185E2B8FA31D00C32A9A /* MainScreenViewController.swift in Sources */,
 				1F9618382B8CA64100C32A9A /* AppDelegate.swift in Sources */,
 				1F96183A2B8CA64100C32A9A /* SceneDelegate.swift in Sources */,
+				1FC5A2202B95CFEF0029DC1B /* LoginProtocols.swift in Sources */,
+				1FE663072B91DF170014AD58 /* AppColors.swift in Sources */,
+				1FE663092B91E6F60014AD58 /* AppTypography.swift in Sources */,
+				1FC5A2172B95BD580029DC1B /* StartScreenModels.swift in Sources */,
+				1F96185A2B8F89EC00C32A9A /* EnterTextField.swift in Sources */,
+				1F9618582B8F89D000C32A9A /* InsetedTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1F96183D2B8CA64100C32A9A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F96183E2B8CA64100C32A9A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1F9618422B8CA64400C32A9A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +440,6 @@
 				INFOPLIST_FILE = asfRazvitie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +467,6 @@
 				INFOPLIST_FILE = asfRazvitie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +504,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1F96184F2B8F776000C32A9A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1F9618502B8F776000C32A9A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F96184F2B8F776000C32A9A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		1F9618522B8F776000C32A9A /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F96184F2B8F776000C32A9A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1F96182C2B8CA64100C32A9A /* Project object */;
 }
